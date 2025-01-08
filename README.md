@@ -9,7 +9,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/kd3n1z/go-telegram-parser"
 )
 
 func main() {
@@ -24,12 +23,11 @@ func main() {
 		fmt.Println("QueryId:", initData.QueryId)
 		fmt.Println("Hash:", initData.Hash)
 		fmt.Println("User.FirstName:", initData.User.FirstName)
-        // ...
+		// ...
 	} else {
 		fmt.Println("Validation failed.")
 	}
 }
-
 ```
 
 ## License
