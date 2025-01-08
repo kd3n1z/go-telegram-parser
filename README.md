@@ -9,6 +9,7 @@ package main
 
 import (
 	"fmt"
+	telegramparser "github.com/kd3n1z/go-telegram-parser"
 )
 
 func main() {
