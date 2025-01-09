@@ -24,7 +24,7 @@ func CreateParser(token string) TelegramParser {
 	return TelegramParser{secret: sha.Sum(nil)}
 }
 
-func (parser TelegramParser) Parse(query string) (WebAppInitData, error) {
+func (parser *TelegramParser) Parse(query string) (WebAppInitData, error) {
 	result := WebAppInitData{}
 
 	values, err := url.ParseQuery(query)
